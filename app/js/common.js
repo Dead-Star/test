@@ -1,6 +1,6 @@
 document.getElementById("card-user").onkeyup = function(event){
 this.value = this.value.replace(/[а-яА-Я]/g, '');
-alert('Только латинские буквы')	
+
 };
 
 
