@@ -1,5 +1,9 @@
 document.getElementById("card-user").onkeyup = function(event){
-this.value = this.value.replace(/[а-яА-Я]/g, '');
+
+	this.value = this.value.replace(/[а-яА-Я]/g, '');
+	this.value = this.value.replace(/[0-9]/g, '');
+
+
 
 };
 
@@ -60,3 +64,4 @@ $(document).ready(function() {
 
      
 });
+
